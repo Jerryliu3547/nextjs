@@ -1,4 +1,8 @@
 import Image from "next/image";
+// add 'use client' on top when using any react hook components. since all hooks,
+// such as useState, useEffect are render and managed at client site.
+// otherwise, error will be generated.
+// docs are available https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns
 
 export default function Home() {
   return (
